@@ -39,12 +39,17 @@
 
 .house {
   background-color: pink;
+  width:100%;
 }
+ .cans {
+   width: 20%;
+   margin-bottom: 10px;
+ }
 
-.canimg {
-  width: 280px;
-}
+ .canimg:hover{
+   transform: scale(1.1, 1.1);
+ }
 
-.canimg:hover {
-  width:290px;
+.canshelf {
+  min-width: 100%
 }
