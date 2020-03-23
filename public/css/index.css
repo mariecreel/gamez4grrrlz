@@ -1,3 +1,4 @@
+/* base page */
 .games {
   position: fixed;
   text-align: center;
@@ -19,27 +20,7 @@
   clip-path: circle(100px at 0 334px);
 }
 
-.room {
-  width:300px;
-  height:300px;
-}
-
-.room:hover {
-  width:310px;
-  height:310px;
-}
-
-.roof {
- width: 0;
- height: 0;
- border-left: 305px solid transparent;
- border-right: 305px solid transparent;
- border-bottom: 100px solid pink;
-}
-
-.house {
-  background-color: pink;
-  width:100%;
+/* cans game */
 }
  .cans {
    width: 20%;
@@ -57,4 +38,60 @@
   min-width: 100%;
   border: solid;
   border-radius: 3px;
+}
+
+/* dollhouse */
+.dialogue{
+  color: transparent;
+}
+
+
+.room {
+  width:300px;
+  height:300px;
+}
+
+.room:hover {
+  width:310px;
+  height:310px;
+}
+
+.roof {
+ width: 0;
+ height: 0;
+ border-left: 307px solid transparent;
+ border-right: 307px solid transparent;
+ border-bottom: 100px solid pink;
+}
+
+.house {
+  background-color: pink;
+  width:100%;
+}
+
+/* dressup game */
+.cutefont {
+  font-family: 'Indie Flower', cursive;
+}
+.textorbuttons{
+  position: absolute;
+  left: 400px;
+  font-size: 20px;
+  width: 600px
+}
+.base{
+  z-index: 0;
+  position: absolute;
+}
+#top {
+  z-index: 2;
+  position: absolute;
+}
+#bottom{
+  z-index: 1;
+  position: absolute;
+}
+#shoes{
+  z-index: 3;
+  position: absolute;
 }

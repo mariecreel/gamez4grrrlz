@@ -1,4 +1,8 @@
 function handleClick(id){
+  $("#kitchendialog").dialog({ autoOpen: false, modal: true, width:400});
+  $("#bedroomdialog").dialog({ autoOpen: false, modal: true, width:400});
+  $("#bathroomdialog").dialog({ autoOpen: false, modal: true, width:400 });
+  $("#closetdialog").dialog({ autoOpen: false, modal: true, width:400 });
   const element = document.getElementById(id);
   switch (id) {
     case "kitchen":
@@ -7,7 +11,7 @@ function handleClick(id){
       }else{
         element.src = "../assets/images/dollhouse/cleankitchen.png";
       };
-      alert(kitchen);
+      $("#kitchendialog").dialog("open");
       break;
     case "bathroom":
       if(element.src ="../assets/images/dollhouse/cleanbathroom.png"){
@@ -15,7 +19,7 @@ function handleClick(id){
       }else{
         element.src = "../assets/images/dollhouse/cleanbathroom.png";
       };
-      alert(bathroom);
+      $("#bathroomdialog").dialog("open");
       break;
     case "bedroom":
       if(element.src ="../assets/images/dollhouse/cleanbedroom.png"){
@@ -23,7 +27,7 @@ function handleClick(id){
       }else{
         element.src = "../assets/images/dollhouse/cleanbedroom.png";
       };
-      alert(bedroom);
+      $("#bedroomdialog").dialog("open");
       break;
     case "closet":
       if(element.src ="../assets/images/dollhouse/cleancloset.png"){
@@ -31,6 +35,6 @@ function handleClick(id){
       }else{
         element.src = "../assets/images/dollhouse/cleancloset.png";
       };
-      alert(closet);
+      $("#closetdialog").dialog("open");
     }
 }
