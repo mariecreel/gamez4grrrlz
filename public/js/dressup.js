@@ -9,9 +9,12 @@ const dressupButtons = '<h3>Tops</h3> \
                   <h3>Shoes</h3> \
                   <button onClick ="handleDressupClick(6)">1</button>\
                   <button onClick ="handleDressupClick(7)">2</button><br/><br/>\
-                  <button onClick = "handleSubmit(state)">~~Done!!~~</button>\
+                  <button onClick = "handleSubmit(state)">~~Done!!~~</button><br/>\
+                  <audio autoplay loop>\
+                    <source src="../assets/sounds/dressuphappy.wav">\
+                  </audio>\
                   '
-var state = [0,0,0] // values indicate which [top, bottom, shoes] when submitted
+var state = [1,1,1] // values indicate which [top, bottom, shoes] when submitted
 
 function handleDressupClick(name){
   let top = document.getElementById('top');
@@ -55,8 +58,54 @@ function handleDressupClick(name){
 function handleStartClick (){
   element = document.getElementById('textbox')
   element.innerHTML = dressupButtons;
+
 }
 
-function handleSubmit(state){
-  alert(state);
+function handleSubmit(){
+  element = document.getElementById('textbox');
+  element.innerHTML = '<p> \
+                      Thanks so much for your help!<br/> \
+                      Hopefully Mom thinks this is okay...<br/> \
+                      Well...I need to catch the bus. See you later?</br>\
+                      <button onClick="handleOK(state)">OK</button>\
+                      </p>';
+
+}
+
+function handleOK(state){
+  element = document.getElementById('dressup')
+
+  element.innerHTML = '<div style="margin: 10px; background-color:black; color:white;">\
+                        <h1>YOU DIDN\'T FIX ANYTHING</h1>\
+                        <h2><em>I SHOULD HAVE NEVER ASKED FOR YOUR HELP.</em></h2>\
+                        <p>\
+                          manufactured home trailer<br/>\
+                          propped up on cinder blocks <br/>\
+                          nine miles from the grocery stores <br/> \
+                          and boutique shops nine miles <br/> \
+                          from the school the solitude <br/> \
+                          no neighbors and no visitors <br/> \
+                          the front lawn was desolate <br/> \
+                          <br/> \
+                          <h2><em>I SHOULD HAVE NEVER GONE TO SCHOOL</em></h2>\
+                          my mother covered windows in tin<br/> \
+                          foil the sun leaked through cracked<br/> \
+                          wrinkles and particles of nicotine <br/> \
+                          danced in the afternoon glow nicotine<br/> \
+                          dripped from the ceiling brown<br/> \
+                          and ominious but never behind <br/> \
+                          the photos in the hallway<br/> \
+                          <br/> \
+                          <h2><em>I SHOULD HAVE NEVER KEPT THE PROOFS</em></h2>\
+                          the photos concealed something <br/> \
+                          more than nicotine stains in our <br/> \
+                          manufactured home what the walls were <br/> \
+                          manufactured around<br/> \
+                          my mother always shouted after <br/> \
+                          school portraits because I failed<br/> \
+                          because my smile looked manufactured. <br/> \
+                          <h2><em>I SHOULD HAVE NEVER MENTIONED IT</em></h2>\
+                        </p><br/>\
+                        <a href="../../index.html">Home</a>\
+                      </div> '
 }

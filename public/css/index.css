@@ -16,7 +16,7 @@
   clip-path: circle(50%);
 }
 
-#dressup{
+#dressup-icon{
   clip-path: circle(100px at 0 334px);
 }
 
@@ -70,6 +70,10 @@
 }
 
 /* dressup game */
+#dressup{
+  background-color:pink;
+}
+
 .cutefont {
   font-family: 'Indie Flower', cursive;
 }
@@ -77,7 +81,8 @@
   position: absolute;
   left: 400px;
   font-size: 20px;
-  width: 600px
+  width: 400px;
+  background-color: pink;
 }
 .base{
   z-index: 0;
