@@ -100,3 +100,16 @@
   z-index: 3;
   position: absolute;
 }
+
+/* tundradventure */
+#passage{
+  background-color: white;
+  border-radius:25px;
+  padding: 20px;
+
+}
+#tundradventurebg {
+  background-image: url('../assets/images/tundradventure/snow.gif');
+  background-repeat: repeat;
+  background-color: navy;
+}
