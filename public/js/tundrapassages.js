@@ -6,9 +6,9 @@ A new moon will hide its pale face in the shadow of the earth; your light is \
 precious, far too finite to waste. You\’re too far from base camp to safely \
 return until the morning, so you must camp out for the night. Thankfully, you’re \
 well prepared; you packed a tent, a campstove, your sleeping bag, and some grub.\
-</p> <button onClick="loadPassage(camp)"> Search for a spot to set up camp</button>';
+</p> <button onClick="loadPassage(searchcamp)"> Search for a spot to set up camp</button>';
 
-const camp = '<p>\
+const searchcamp = '<p>\
 You scan the surroundings, searching for flat land free of stones. Nothing \
 catches your eye, so you walk south, towards base camp, hoping to help your \
 future self with a head start. Huffing uphill in the cold, your breath fogs \
@@ -43,7 +43,7 @@ with a tentative “Hello? Is there anyone home?” Again, no answer. You stand 
 your tip toes to peek through the window, but you see no one inside. A chill \
 crawls up your spine as the sun finally disappears below the horizon. \
 </p>\
-<button onClick = "loadPassage(door)">Try the doorknob</button> || \
+<button onClick = "loadPassage(door)">Try the doorknob</button> \
 <button onClick = "loadPassage(trywindow)">Try the window</button>';
 
 const door = '<p>\
@@ -55,7 +55,7 @@ the boot rack by the door, but you take yours off for the sake of civility. You\
  tub for masked murderers. You\’re sure you’re alone. You heave a sigh of relief \
  and take off your coat, hanging it by the door. </p>\
  <button onClick="loadPassage(dinner)">Make Dinner</button>\
- || <button onClick="loadPassage(shower)">Take a Shower</button>';
+  <button onClick="loadPassage(shower)">Take a Shower</button>';
 
  const trywindow = '<p>\
  You pull your mutli-tool from your pack and flip open the blade, shoving it \
@@ -178,3 +178,112 @@ was coming? You ask yourself<br/>\
 every day, but you never<br/>\
 give an answer.<br/></p>\
 <button onClick="loadPassage(wake)">...</button>'
+
+const wake = '<p>The sun streams directly down into your eyes, forcing you awake\
+ with a sneeze. Groaning, you squeeze your face into the pillow. <em>Not yet…five \
+ more minutes…please, Mom… </em> After a few moments breathing stale pillow air, you \
+ realize that your mother isn\'t here at all. Tentatively, you poke a toe out \
+ into the cold morning air. All the heat of last night’s cozy fire is \
+ definitely gone now. You groan again and wrap yourself up in the blanket, \
+ sluggishly walk over to the woodstove, and light a new fire. You wait for your \
+ nose to warm up again before you shed your flannel cocoon. Your stomach grumbles, so \
+ you dig through your pack to find breakfast. </p>\
+ <p><em>Wait…are you kidding?</em> You \
+ dig through your pack again just to make sure, and your fears are cofirmed: \
+ you’re all out of food. I thought I packed at least one more can…Your stomach \
+ gurgles louder than before in protest. You jump up and dig through the \
+ cabinets in desperation, finding nothing but flour and oil. You fear that \
+ you will find the same in the fridge, but you still check anyway. The fridge \
+ bulb flickers, dimly illuminating the mostly-empty shelves. You find a stack \
+ of homemade pancakes and a note written in your handwriting. \
+ </p>\
+ <p>You almost miss the note as you grab the pancakes and stuff the last bites \
+ into your face. You almost miss it again because you think it can’t be real, \
+ that your hungry brain is deceiving you, that you breathed some strange cave \
+ fumes yesterday and now you have brain damage. The third time you look at the \
+ note, you pinch your arm like the movies. It hurts! So…this has to be real. \
+ A cold sweat gather on your forehead and palms. </p>\
+ <p>You’ve never been to this cabin before last night. You haven’t hand-written \
+ a note in ages, either; you switched to digital notes years ago in undergrad. \
+ So how the HECK did this note get here? Sure enough, your chicken scratch \
+ scrawls across the page; It is definitely your handwriting. </p>\
+ <button onClick ="loadPassage(note)">Read the note</button>'
+
+ const note = '<div id="note"><p>Dear Linda,</p><p>\
+This is probably very strange for you…I can only apologize. You aren’t going \
+crazy, I promise! Well, as much as I can promise. I realize I might not be the \
+most reliable source of information, but I’m all you’ve got. So, listen up:</p>\
+<p>There’s definitely something up with that cave!!! Ever since I found it, I \
+keep getting lost in the woods. No matter how far I walk to the east or west, \
+north or south, I always end up back at this cabin. Even if I check myself \
+with the sun instead of my compass, I end right where I started. I’ve lost \
+hope that I’ll ever make it back to camp. I never should have left on my \
+own…but I was too proud to ask Stephen to come with me. You were too. \
+We all were. </p>\
+<p>Ever since my first visit to the cabin, I’ve seen myself walking through the \
+forest every day. Not like I’m imaginging it; I’ve literally watched myself \
+walk out of the cave, oblivious to what kind of trouble I’ve gotten myself \
+into! I feel sooo crazy! I’ve followed my own footsteps, cris-crossing the \
+clearing as the snow falls. I’ve watched myself climb into the cabin window, \
+or try the door, at least ten times. I’m so tired of watching myself sleep, \
+wake up, and head out into the unknown over and over again. I’m scared I’ll \
+find a body soon. I’m losing weight, losing sleep, and losing patience. </p>\
+<p>I don’t know what to do, but I’m begging you, for your sake: please find a \
+way out of this forest! It must have something to do with the cave! I know it \
+must! I can’t find anything there but that stupid egg…but maybe I’m missing \
+something that you might think of?</p><p>Yours,<br/>\
+Linda<br/></p>\
+</div>\
+<button onClick="loadPassage(afternote)">...</button>'
+
+const afternote = '<p>You can’t believe anything you just read. You pinch \
+yourself again. You bite your finger. You scratch your arm. It all hurts. \
+Is this really a reliable test? You feel your heart quicken and your breath \
+stagger. Is this some prank? Did the team think this was funny? Now you’re \
+shaking like a leaf in the wind. <em>What do I do? Come on…think!</em> You cover your \
+face in your hands and cower by the woodstove. What if the letter is real? <em>I \
+really must be hallucinating…</em></p>\
+<p>You shake your head and take a deep \
+breath. You notice the sun has almost reached the middle of the sky. \
+<em>Okay… either way, I need to go.</em> If the letter is fake, as you suspect, \
+you can make it back to camp before dinner if you leave now. If the letter \
+is real, you’ll probably end up back at the cabin anyway. Just in case, \
+you throw a few extra logs into the woodstove.<br/></p>\
+<button onClick="loadPassage(leavecabin)">Leave the cabin</button>'
+
+const leavecabin = '<p>You zip yourself into your snow suit and take another \
+deep breath. You stand by the woodstove to gather as much heat as possible \
+before departing. Leaving the woodstove lit and the door unlocked, you walk \
+back down the creaking steps and back into the snow. </p>\
+<button onClick="loadPassage(camp)">Go back to base camp</button> \
+<button onClick="loadPassage(cave)">Go back to the cave</button>'
+
+const camp = '<p>You make the conservative choice and head south, towards camp. \
+You walk for hours, hungry and tired, hoping that the team has gone looking for \
+you so that you can meet them halfway by coincidence. You have no such luck, \
+and you amble along for hours without seeing another person. You don’t even see \
+yourself, and you never cross any tracks, animal or human. Suddenly you see \
+smoke and light in the distance, and you almost sprint towards it, moving as \
+fast as your snow gear allows.</p><p>As the sun sinks behind the trees, you \
+finally stumble upon a clearing. Your stomach grumbles, and you have to lean \
+up against a tree to stand. Your heart pounds as you look up after wiping \
+your lenses clean, hoping for a heroes welcome. But you were never that \
+lucky, or heroic.</p><p>Instead, you watch yourself knock on the front \
+door of the red cabin. “Hello? Is there anyone home?” echoes across the \
+clearing, through the trees, and all your bones. Before you fall, you \
+watch yourself climb in through the window towards the glow of orange \
+warmth. </p><br/> <a href="../../index.html">Home</a>'
+
+const cave = '<p>Despite your better judgement, you go in the direction \
+you think the cave lies. If there’s any morsel of truth to the letter you \
+found, you’re bound to run into yourself there. You try not to think about \
+how weird that is. But you have to know whether or not it’s true, even if \
+it is weird. Hey, maybe Stephen came looking for me here too! He’s the \
+only one who would know… You really, really hope Stephen is looking for you. \
+</p><p>After a couple of hours, you enter the mouth of the cave. Inside, you can hear \
+grunts, deep and gutteral, interspersed with gasps. You draw your multi-tool \
+knife and slowly enter the cave, walking towards the cavern where you found \
+the egg. You watch as another you heaves the egg into the air and slams it \
+to the ground, shooting the glowing shrapnel to all corners of the cavern \
+with a spark. When you make eye contact with yourself, you both dissipate \
+into cave dust. </p><br/> <a href="../../index.html">Home</a>'

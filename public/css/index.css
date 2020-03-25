@@ -113,3 +113,10 @@
   background-repeat: repeat;
   background-color: navy;
 }
+
+#note {
+  text-align: left;
+  font-family: 'Beth Ellen', cursive;
+  font-size: 13px;
+
+}
