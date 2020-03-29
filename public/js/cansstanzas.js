@@ -62,10 +62,10 @@ const eight = '<p>\
       </p>';
 
 const nine = '<p>\
-        That evening, I packed a plastic<br/>\
-        grocery bag with cans of peas,<br/>\
-        yams, green beans, ramen noodles, and<br/>\
-        even a can of Boyardee.<br/>\
+        I brought cans to school for the drive, <br/>\
+        and I felt I’d done a good deed.<br/>\
+        When mom came home from church that week,<br/>\
+        she brought home a box filled with cans. <br/>\
       </p>';
 
 const stanzas = {

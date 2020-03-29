@@ -27,11 +27,16 @@
    margin-bottom: 30px;
    border: solid;
    border-radius: 3px;
-   border-color: white;
+   border-color: black;
  }
 
  .canimg:hover{
    transform: scale(1.1, 1.1);
+ }
+
+ .canimg {
+   height: auto;
+   width: 100%;
  }
 
 .canshelf {
@@ -122,18 +127,3 @@
 }
 
 /* tangram */
-
-#bigtriangle1 {
-  width:0;
-  height:0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid red;
-  border-bottom: 50px solid transparent;
-}
-
-#bigtriangle2 {
-  width:0;
-  height:0;
-  border-top: 100px solid red;
-  border-right: 100px solid transparent;
-}
