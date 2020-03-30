@@ -19,7 +19,15 @@
 #dressup-icon{
   clip-path: circle(100px at 0 334px);
 }
+.main {
+   color: white;
+   background-color: black;
+ }
 
+ table.center {
+   margin-left: auto;
+   margin-right: auto;
+ }
 /* cans game */
 }
  .cans {
@@ -43,6 +51,8 @@
   min-width: 100%;
   border: solid;
   border-radius: 3px;
+  background-color: burlywood;
+  color:black;
 }
 
 /* dollhouse */
@@ -127,3 +137,8 @@
 }
 
 /* tangram */
+
+.shape {
+  width:20%;
+  z-index: 1;
+}
