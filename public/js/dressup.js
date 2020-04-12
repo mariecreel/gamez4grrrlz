@@ -82,7 +82,7 @@ function handleOK(state){
                           manufactured home trailer<br/>\
                           propped up on cinder blocks <br/>\
                           nine miles from the grocery stores <br/> \
-                          and boutique shops nine miles <br/> \
+                          and main street shops nine miles <br/> \
                           from the school the solitude <br/> \
                           no neighbors and no visitors <br/> \
                           the front lawn was desolate <br/> \
@@ -90,17 +90,17 @@ function handleOK(state){
                           <h2><em>I SHOULD HAVE NEVER GONE TO SCHOOL</em></h2>\
                           my mother covered windows in tin<br/> \
                           foil the sun leaked through cracked<br/> \
-                          wrinkles and particles of nicotine <br/> \
-                          danced in the afternoon glow nicotine<br/> \
+                          wrinkles particles of nicotine <br/> \
+                          danced in afternoon glow nicotine<br/> \
                           dripped from the ceiling brown<br/> \
-                          and ominious but never behind <br/> \
+                          and ominious never behind <br/> \
                           the photos in the hallway<br/> \
                           <br/> \
                           <h2><em>I SHOULD HAVE NEVER KEPT THE PROOFS</em></h2>\
                           the photos concealed something <br/> \
                           more than nicotine stains in our <br/> \
-                          manufactured home what the walls were <br/> \
-                          manufactured around<br/> \
+                          manufactured home what the walls <br/> \
+                          were manufactured around<br/> \
                           my mother always shouted after <br/> \
                           school portraits because I failed<br/> \
                           because my smile looked manufactured. <br/> \
