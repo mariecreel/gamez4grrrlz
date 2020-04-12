@@ -50,7 +50,7 @@ const six = '<p>\
 const seven = '<p>\
         As the box was slowly filled with<br/>\
         donations from my classmates, I<br/>\
-        felt exposed, walking thorugh the door<br/>\
+        felt exposed, walking through the door<br/>\
         with no donation of my own.<br/>\
       </p>';
 
