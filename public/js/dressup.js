@@ -93,7 +93,7 @@ function handleOK(state){
                           wrinkles particles of nicotine <br/> \
                           danced in afternoon glow nicotine<br/> \
                           dripped from the ceiling brown<br/> \
-                          and ominious never behind <br/> \
+                          and ominous never behind <br/> \
                           the photos in the hallway<br/> \
                           <br/> \
                           <h2><em>I SHOULD HAVE NEVER KEPT THE PROOFS</em></h2>\
