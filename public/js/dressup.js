@@ -93,8 +93,8 @@ function handleOK(state){
                           wrinkles particles of nicotine <br/> \
                           danced in afternoon glow nicotine<br/> \
                           dripped from the ceiling brown<br/> \
-                          and ominous never behind <br/> \
-                          the photos in the hallway<br/> \
+                          and ominous from top to bottom <br/> \
+                          stains surrounded hallway portraits<br/> \
                           <br/> \
                           <h2><em>I SHOULD HAVE NEVER KEPT THE PROOFS</em></h2>\
                           the photos concealed something <br/> \
@@ -102,7 +102,7 @@ function handleOK(state){
                           manufactured home what the walls <br/> \
                           were manufactured around<br/> \
                           my mother always shouted after <br/> \
-                          school portraits because I failed<br/> \
+                          school portraits I failed<br/> \
                           because my smile looked manufactured. <br/> \
                           <h2><em>I SHOULD HAVE NEVER MENTIONED IT</em></h2>\
                         </p><br/>\
